@@ -1,0 +1,10 @@
+version: '3'
+services:
+  caddy:
+    image: "stockmind/datascience-plus:latest"
+    volumes:
+      - ./work:/home/jovyan/work  # to mount custom Caddyfile
+    ports:
+      - "8888:8888"
+    environment:
+    - JUPYTER_ENABLE_LAB=yes
