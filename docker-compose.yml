@@ -3,7 +3,7 @@ services:
   notebook:
     image: "stockmind/datascience-plus:latest"
     volumes:
-      - ./work:/home/jovyan/work  # to mount custom Caddyfile
+      - ./work:/home/jovyan/
     ports:
       - "8888:8888"
     environment:
