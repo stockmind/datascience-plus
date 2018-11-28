@@ -20,7 +20,7 @@ This image just adds some useful packages.
 
 ## Packages
 
-```
+```bash
 - plotly        # Python framework for building analytics web apps
 - ujson         # Ultra fast JSON encoder and decoder written in pure C with bindings for Python
 - tinydb        # Tiny, document oriented database
