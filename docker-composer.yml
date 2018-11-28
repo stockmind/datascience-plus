@@ -1,6 +1,6 @@
 version: '3'
 services:
-  caddy:
+  notebook:
     image: "stockmind/datascience-plus:latest"
     volumes:
       - ./work:/home/jovyan/work  # to mount custom Caddyfile
