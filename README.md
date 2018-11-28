@@ -1,6 +1,7 @@
 # Jupyter Data Science Notebook
 
-This is a Docker image based on the official Jupyter Data Science Notebook that just add some packages.
+This is a Docker image based on my Jupyter Sql Notebook, which in turn is based on the official Jupyter Data Science Notebook.
+This image just adds some useful packages.
 
 ## Launch
 
